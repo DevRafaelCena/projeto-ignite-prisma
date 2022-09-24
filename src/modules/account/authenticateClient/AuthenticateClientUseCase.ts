@@ -34,6 +34,7 @@ export class AuthenticateClientUseCase {
             subject: client.id,
             expiresIn: "1d"
         })
+        
         return token
 
 
