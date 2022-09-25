@@ -17,6 +17,8 @@ export class CreateDeliveryUseCase {
             }
         })
 
+        return delivery
+
     }
 
 }
